@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100%; 
+    width: 100%;
+ 
+    
+   
+    
+}
+body{
+    background:linear-gradient(to right, rgb(71, 9, 9),rgb(7, 7, 238));
+}
+
+.conteiner{
+    width: 900px;
+    height: 300px;
+    top:50%;
+    bottom: 50%;
+    transform: translate(27%,50%);
+    border-radius:30px;
+    box-shadow: 4px 4px 10px 7px black;    
+   
+
+}
+#slider{
+    display:flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius:30px;
+   
+
+}
+
+#slider , #img{
+    width: 900px;
+    height: 100%;
+    
+}
+
+input{
+    display: none;
+}
+
+.navigation{
+   position: absolute;
+   left: 630px;
+   height: 35px;
+   display: flex;
+   width: 150px;
+   bottom: 50px;
+   padding: 4px;
+   top:490px
+   
+    
+}
+
+.bar{
+    border-radius:100px;
+    border:1px solid black;
+    margin-left: 5px;
+}
+
+.bar:hover{
+    background-color: rgba(255, 255, 255, 0.37);
+    border:rgba(255, 255, 255, 0.37);
+    cursor: pointer;
+}
+
+/* #slide1{
+   margin-left: -2700px;
+} */
+/* #slide1{
+   margin-left: -900px; */
+
+/* #slide3{
+   margin-left: -1800px;
+} */
+
+/* #slide1{
+   margin-left: -2700px;
+} */
+/* 
+#btn:checked ~ #slide1{
+    margin-left: 1800px;
+} */
+
+/* #btn{
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+} */
